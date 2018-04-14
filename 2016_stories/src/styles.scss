@@ -1,0 +1,35 @@
+@import "core/reset";
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+a {
+    color: #07C;
+    text-decoration: none;
+    &:active {
+        position: relative;
+        top: 1;
+    }
+    &:visited {
+        color: #005999;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+#app {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+@import "ui/paranja";
+@import "ui/spinner";
+@import "components/navigation";
+@import "components/search-field";
+@import "pages/home";
+@import "pages/story";

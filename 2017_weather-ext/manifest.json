@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "__MSG_ext_name__",
+  "description": "__MSG_ext_description__",
+  "version": "0.1.1",
+  "default_locale": "en",
+
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "vendor/debug.js",
+      "src/bundles/common/util.js",
+      "src/bundles/common/api.js",
+      "src/bundles/common/storage.js",
+      "src/background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "src/bundles/options/index.html",
+    "chrome_style": true
+  },
+  "browser_action": {
+    "default_icon": "src/bundles/popup/icon.gif",
+    "default_popup": "src/bundles/popup/index.html"
+  },
+  "permissions": [
+    "alarms",
+    "http://icons.wxug.com/"
+  ]
+}

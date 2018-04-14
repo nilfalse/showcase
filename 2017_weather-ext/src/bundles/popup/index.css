@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 4px;
+}
+
+.popup {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 400px;
+    max-width: 700px;
+    padding: 16px;
+}
+
+.popup__title {
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+}
+
+.popup__conditions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.popup__forecast {
+    padding: 0;
+}
+
+.forecast {
+    display: flex;
+    border-top: 1px solid #efefef;
+}
+
+.forecast__day {
+    padding: 4px 16px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forecast__day:nth-child(odd) {
+    background-color: #efefef;
+}
+
+.popup__options-button {
+    float: right;
+
+    border: none;
+    padding: 0;
+    background: transparent url(/assets/gear.svg) no-repeat;
+    width: 32px;
+    height: 32px;
+    text-indent: 9999px;
+    cursor: pointer;
+}

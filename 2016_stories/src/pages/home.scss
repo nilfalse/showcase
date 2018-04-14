@@ -1,0 +1,33 @@
+.headlines {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 12px 4px 32px;
+
+    .headline {
+        width: 100%;
+        padding: 4px 0;
+
+        &__turbolink {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        &__media {
+            flex: 0 0 80px;
+            align-self: flex-start;
+            margin: 8px 4px 0 0;
+        }
+
+        &__text {
+            flex: 0 1 auto;
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 20px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #535353;
+            margin-top: 6px;
+        }
+    }
+}

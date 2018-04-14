@@ -1,0 +1,12 @@
+{
+  "name": "node_aero",
+  "version": "0.0.1pre",
+  "dependencies": {
+    "body-parser": "^1.8.3",
+    "cheerio": "~0.17.0",
+    "express": "~4.9.0",
+    "express-session": "^1.8.1",
+    "iconv": "^2.1.4",
+    "jade": "^1.6.0"
+  }
+}

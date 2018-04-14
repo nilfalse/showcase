@@ -1,0 +1,16 @@
+.headlines-filter {
+    padding: 0 12px;
+
+    input {
+        color: #ababab;
+        outline: none;
+        border: 1px solid #ebebeb;
+        font-size: 18px;
+        padding: 8px;
+        width: 100%;
+
+        &:active, &:focus {
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+html {
+    font: 14px Arial;
+}
+
+.calendar {
+    padding: 30px;
+    position: relative;
+}
+
+.calendar__grid {
+    position: absolute;
+}
+
+.calendar__events {
+    position: absolute;
+    margin-left: 40px;
+}

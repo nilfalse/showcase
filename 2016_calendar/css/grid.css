@@ -1,0 +1,50 @@
+.grid {
+    margin-left: 40px;
+    width: 600px;
+    padding: 0 10px;
+    border-collapse: collapse;
+}
+
+.grid__period-row-outer {
+    border: 2px solid rgb(231, 231, 231);
+}
+
+.grid__period-row-outer_last {
+    visibility: hidden;
+}
+.grid__period-row-outer_last .grid__period-row {
+    height: 30px;
+}
+.grid__period-row-outer_last .grid__timestamp {
+    visibility: visible;
+}
+
+.grid__period-row {
+    display: inline-flex;
+    flex-direction: column;
+    height: 56px;
+}
+
+.grid__timestamp {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 60px;
+    height: 50%;
+    position: relative;
+    left: -65px;
+    top: -15px;
+
+    color: rgb(65, 66, 67);
+    font-weight: bold;
+}
+
+.grid__timestamp:nth-child(even),
+.grid__ampm {
+    font-size: 11px;
+    font-weight: normal;
+    opacity: .6;
+}

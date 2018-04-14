@@ -1,0 +1,15 @@
+body,
+h1,h2,h3,h4,h5,h6,
+p,
+ul, li,
+figure
+{ margin: 0; }
+
+ul { padding: 0;list-style-type: none; }
+
+textarea,
+input[type="text"],
+input[type="search"],
+input[type="button"],
+input[type="submit"]
+{ -webkit-appearance: none; border-radius: 0; }

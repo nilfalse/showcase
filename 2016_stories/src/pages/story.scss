@@ -1,0 +1,101 @@
+.story {
+    font-family: Verdana, sans-serif;
+    color: black;
+    padding: 12px 0 32px;
+
+    @media only screen and (max-width: 960px) {
+        padding: 12px;
+    }
+
+    &__headline {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    &__time {
+        color: #bbb;
+    }
+
+    &__content {
+        text-align: justify;
+    }
+
+    &__read-more {
+        & a {
+            display: block;
+            float: right;
+            margin: 16px;
+            text-transform: uppercase;
+            height: 35px;
+            line-height: 35px;
+            padding-left: 15px;
+            padding-right: 25px;
+            background: url(../assets/button.png) right center no-repeat;
+            color: #edf3f3;
+            position: relative;
+            opacity: 1;
+
+            &:hover .story__read-more-arrow {
+                opacity: 0;
+                transform: translateX(30px);
+                transition: opacity .6s ease, transform .6s linear;
+            }
+        }
+
+        &-arrow {
+            display: block;
+            background: url(../assets/button-arrow.png);
+            width: 23px;
+            height: 35px;
+            position: absolute;
+            top: 0;
+            right: -11px;
+        }
+    }
+
+    &__related {
+        clear: both;
+    }
+
+    .related {
+        margin: 14px;
+
+        b {
+            font-weight: normal;
+        }
+
+        &__publisher {
+            display: block;
+            color: #666;
+        }
+        &__link {
+            color: #1fb6d3;
+        }
+    }
+
+    &__media {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+
+        &-image {
+            min-width: 100%;
+            max-width: 100%;
+            min-height: 160px;
+        }
+
+        &-title {
+            font-size: 18px;
+            background-color: rgba(255, 255, 255, 0.4);
+            color: #eee;
+            text-shadow: #111 -2px -2px 2px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            padding: 14px;
+        }
+    }
+}

@@ -1,0 +1,362 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"UR",
+		"country_iso3166":"UA",
+		"country_name":"Ukraine",
+		"state":"30",
+		"city":"Kiev",
+		"tz_short":"EEST",
+		"tz_long":"Europe/Kiev",
+		"lat":"50.40000153",
+		"lon":"30.56999969",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"33345",
+		"l":"/q/zmw:00000.1.33345",
+		"requesturl":"global/stations/33345.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/33345.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Kyiv", "state":"", "country":"Ukraine", "icao":"UKKK", "lat":"50.40169907", "lon":"30.44969940" }
+		,{ "city":"Kyiv", "state":"", "country":"UA", "icao":"UKKK", "lat":"50.40000153", "lon":"30.45000076" }
+		,{ "city":"Boryspil\u0027", "state":"", "country":"UA", "icao":"UKBB", "lat":"50.33000183", "lon":"30.96999931" }
+		,{ "city":"Gostomel", "state":"", "country":"UA", "icao":"UKKM", "lat":"50.59999847", "lon":"30.20000076" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Tymiriazievska Street",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV257",
+		"lat":50.408592,
+		"lon":30.558405,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Drohomyrova Street",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV314",
+		"lat":50.410786,
+		"lon":30.545467,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Kiev",
+		"city":"Kiev",
+		"state":"",
+		"country":"UR",
+		"id":"IKIEV57",
+		"lat":50.409870,
+		"lon":30.543890,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Yahotynska Street",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV225",
+		"lat":50.410912,
+		"lon":30.539665,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Dniprovs\u0027ka embankment",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV38",
+		"lat":50.422649,
+		"lon":30.592680,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Dniprovs\u0027ka embankment",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV251",
+		"lat":50.407768,
+		"lon":30.611111,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Akademika Filatova Street",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV227",
+		"lat":50.414646,
+		"lon":30.532230,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Druzhby Narodiv Boulevard",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV316",
+		"lat":50.411732,
+		"lon":30.527399,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Lesi Ukrainky Boulevard",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UR",
+		"id":"IKYIV138",
+		"lat":50.423538,
+		"lon":30.541777,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Pechersk",
+		"city":"Kyiv",
+		"state":"Kyiv region",
+		"country":"UA",
+		"id":"IKIEVKIE2",
+		"lat":50.427853,
+		"lon":30.553291,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Kyiv",
+		"city":"Poznyaki",
+		"state":"30",
+		"country":"UR",
+		"id":"I30POZNY2",
+		"lat":50.401455,
+		"lon":30.617115,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Lesi Ukrainky Boulevard",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV205",
+		"lat":50.425518,
+		"lon":30.544672,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Anny Akhmatovoi Street",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV56",
+		"lat":50.406345,
+		"lon":30.616590,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Kiev",
+		"city":"Kiev",
+		"state":"",
+		"country":"UR",
+		"id":"IKIEV42",
+		"lat":50.384846,
+		"lon":30.612362,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Staronavodnytska Street",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV114",
+		"lat":50.427067,
+		"lon":30.544397,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Antonovycha Street",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV285",
+		"lat":50.411411,
+		"lon":30.522459,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Kiev",
+		"city":"Kiev",
+		"state":"",
+		"country":"UR",
+		"id":"IKIEV55",
+		"lat":50.411766,
+		"lon":30.522493,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Pavla Tychyny Avenue",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV223",
+		"lat":50.427055,
+		"lon":30.599859,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Dniprovs\u0027ka embankment",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV22",
+		"lat":50.429279,
+		"lon":30.594154,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Yuriya Shums\u0027koho Street",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UR",
+		"id":"IKYIV342",
+		"lat":50.426376,
+		"lon":30.601778,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Tvers\u0027kyi blind alley",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UR",
+		"id":"IKYIV4",
+		"lat":50.424103,
+		"lon":30.531631,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Kiev",
+		"city":"Kiev",
+		"state":"",
+		"country":"UR",
+		"id":"IKIEV24",
+		"lat":50.429317,
+		"lon":30.536558,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Kiev",
+		"city":"Poznyaki",
+		"state":"30",
+		"country":"UR",
+		"id":"I30POZNY4",
+		"lat":50.402054,
+		"lon":30.626888,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"prospekt 40-letiya Oktyabrya",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV32",
+		"lat":50.400700,
+		"lon":30.512510,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Kiev",
+		"city":"Osokorki",
+		"state":"30",
+		"country":"UR",
+		"id":"I30OSOKO2",
+		"lat":50.412560,
+		"lon":30.625196,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Lyubars\u0027kyi Lane",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV165",
+		"lat":50.417759,
+		"lon":30.624926,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Pozniaky",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV229",
+		"lat":50.416878,
+		"lon":30.625898,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Lesi Ukrainky Boulevard",
+		"city":"Kyiv",
+		"state":"",
+		"country":"UA",
+		"id":"IKYIV247",
+		"lat":50.432568,
+		"lon":30.534769,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Kiev",
+		"city":"Kyiv",
+		"state":"30",
+		"country":"UR",
+		"id":"I30KYIV5",
+		"lat":50.420624,
+		"lon":30.516378,
+		"distance_km":4,
+		"distance_mi":2
+		}
+		]
+		}
+		}
+	}
+}

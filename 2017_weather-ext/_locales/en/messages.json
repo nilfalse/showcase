@@ -1,0 +1,39 @@
+{
+    "ext_name": {
+        "message": "Weather Extension"
+    },
+    "ext_description": {
+        "message": "Always shows the temperature and weather conditions for your current location"
+    },
+
+    "popup_title": {
+        "message": "Weather in $city$ ($country$)",
+        "placeholders": {
+            "city": {
+                "content": "$1"
+            },
+            "country": {
+                "content": "$2"
+            }
+        }
+    },
+    "popup_today": {
+        "message": "Now:"
+    },
+    "popup_conds": {
+        "message": "Temperature: $1&deg;C$2"
+    },
+    "popup_conds_additional": {
+        "message": " (feels like $1&deg;C)"
+    },
+    "popup_wind": {
+        "message": "Wind: $1&nbsp;$2&deg;&nbsp;$3km/h"
+    },
+    "popup_forecast": {
+        "message": "<p>$1 $2,</p><p>Temp: $3&ndash;$4&deg;C,</p><p>$5</p>"
+    },
+
+    "options_title": {
+        "message": "There going to be some options for Weather Extension"
+    }
+}

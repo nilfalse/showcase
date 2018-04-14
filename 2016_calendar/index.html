@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>Calendar (DOM)</title>
+<link rel="stylesheet" href="css/grid.css" />
+<link rel="stylesheet" href="css/events.css" />
+<link rel="stylesheet" href="css/main.css" />
+
+<a href="./programming-challenge.pdf">Description [pdf]</a>
+
+<main class="calendar">
+    <table class="calendar__grid grid">
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">9:00&nbsp;<span class="grid__ampm">AM</span></p>
+                <p class="grid__timestamp">9:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">10:00&nbsp;<span class="grid__ampm">AM</span></p>
+                <p class="grid__timestamp">10:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">11:00&nbsp;<span class="grid__ampm">AM</span></p>
+                <p class="grid__timestamp">11:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">12:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">12:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">1:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">1:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">2:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">2:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">3:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">3:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">4:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">4:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">5:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">5:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">6:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">6:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">7:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">7:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">8:00&nbsp;<span class="grid__ampm">PM</span></p>
+                <p class="grid__timestamp">8:30</p>
+            </div>
+        </td></tr>
+        <tr><td class="grid__period-row-outer grid__period-row-outer_last">
+            <div class="grid__period-row">
+                <p class="grid__timestamp">9:00&nbsp;<span class="grid__ampm">PM</span></p>
+            </div>
+        </td></tr>
+    </table>
+    <ul class="calendar__events events">
+    </ul>
+</main>
+
+<script src="js/models.js"></script>
+<script src="js/views.event.js"></script>
+<script src="js/views.root.js"></script>
+<script src="js/service.js"></script>
+<script src="js/controller.js"></script>
+<script src="fixtures/pseudo-jsonp-test-data.js"></script>
+

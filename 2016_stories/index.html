@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Your News Store</title>
+        <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,500' rel='stylesheet' type='text/css' />
+        <link href="dist/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <section id="app">
+        </section>
+        <div class="paranja">
+            <div class="paranja__spinner spinner"><div class="spinner__image"></div></div>
+        </div>
+        <script>
+        document.title = 'loading...';
+        [].forEach.call(document.querySelectorAll('.spinner__image'), function(parent) {
+            var spinner = new Image;
+            spinner.src = 'assets/preloader.gif';
+            parent.appendChild(spinner);
+        });
+        </script>
+
+        <script src="https://unpkg.com/systemjs@0.19.41/dist/system.js"></script>
+        <script>
+        System.config({
+            baseURL: '.',
+            map: {
+                'object-assign': 'https://unpkg.com/object-assign@4.1.0',
+                corejs: 'https://unpkg.com/core-js@2.4.0',
+                fetch: 'https://unpkg.com/whatwg-fetch@2.0.1',
+
+                debug: 'https://unpkg.com/debug@2.2.0',
+                // following is a dependency for 'debug'
+                ms: 'https://unpkg.com/ms@0.7.2',
+            },
+            packages: {
+                'object-assign': { main: 'index', defaultExtension: 'js' },
+                corejs: { main: 'client/shim.min', defaultExtension: 'js' },
+                fetch: { main: 'fetch', defaultExtension: 'js' },
+
+                debug: { main: 'browser', defaultExtension: 'js' },
+                ms: { main: 'index', defaultExtension: 'js' },
+
+                dist: { defaultExtension: 'js' }
+            }
+        });
+        System.import('./dist/boot.js').then(null, function () {
+            console.error.apply(console, arguments);
+
+            document.title = 'oops!';
+            [].forEach.call(document.querySelectorAll('.spinner__image'), function(parent) {
+                while (parent.lastChild) {
+                    parent.removeChild(parent.lastChild);
+                }
+            });
+        });
+        </script>
+    </body>
+</html>

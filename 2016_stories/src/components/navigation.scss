@@ -1,0 +1,40 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #f2f2f2;
+
+    &__home {
+        position: relative;
+        display: inline-block;
+        background: url(../assets/home-icon.png) center center no-repeat;
+        width: 70px;
+        height: 70px;
+        color: #07C;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+
+        &:hover {
+            background-color: #eae8e8;
+        }
+
+        &:before {
+            content: "";
+            height: 4px;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            background: #b9b6b6;
+        }
+    }
+
+    .headlines-filter {
+        flex: 1 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 14px;
+    }
+}
